@@ -32,7 +32,7 @@
   <build_depend>tf2_msgs</build_depend>                 # geometry_experimental/tf2_msgs
   <build_depend>ar_track_alvar_msgs</build_depend>      # sniekum/ar_track_alvar_msgs
   <build_depend>uuid_msgs</build_depend>                # ros-geographic-info/unique_identifier
-  <build_depend>yocs_msgs</build_depend>                # yujinrobot/yocs_msgs
+<!--  <build_depend>yocs_msgs</build_depend>                # yujinrobot/yocs_msgs
   <build_depend>concert_msgs</build_depend>             # robotics-in-concert/rocon_msgs
   <build_depend>concert_service_msgs</build_depend>
   <build_depend>gateway_msgs</build_depend>
@@ -44,16 +44,15 @@
   <build_depend>rocon_tutorial_msgs</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>world_canvas_msgs</build_depend>
-  <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
-  -->
   <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
-
+-->  
   <!-- Temporary requirement so move_base_msgs compiles - remove once
        https://github.com/ros-planning/navigation/pull/312 is fixed and released.
   -->
+<!--
   <build_depend>roscpp</build_depend>           # ros-planning/navigation
-
+-->
   <run_depend>rosjava_build_tools</run_depend>
   <run_depend>genjava</run_depend>
 </package>
